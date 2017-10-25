@@ -1,28 +1,40 @@
 {
-  "posts": [
+  "skillsRepo": [
     {
       "id": 1,
-      "title": "Post 1"
+      "title": "JS"
     },
     {
       "id": 2,
-      "title": "Post 2"
+      "title": "SharePoint"
     },
     {
       "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
+      "title": "React"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 4,
+      "title": "Azure"
     },
     {
       "id": 2,
-      "body": "some comment",
-      "postId": 1
+      "title": "ML"
+    },
+    {
+      "id": 3,
+      "title": "C#"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Karan",
+      "skills": ["JS","C#","ML"]
+    },
+    {
+      "id": 2,
+      "name": "Arjun",
+      "skills": ["React","C#","JS"]
     }
   ],
   "profile": {
